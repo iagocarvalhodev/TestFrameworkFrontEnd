@@ -1,0 +1,19 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <img src="assets/framework.svg" class="framework" />
+    <span class="spacer"></span>
+    <ul class="menu">
+      <li>
+        <button [routerLink]="['/albums']" mat-button [class.active]="isActive('albums')" [class.defaultActive]="isActive('')">
+          Albums
+        </button>
+      </li>
+      <li>
+        <button [routerLink]="['/posts']" mat-button [class.active]="isActive('posts')">Posts</button>
+      </li>
+      <li>
+        <button [routerLink]="['/todos']" mat-button [class.active]="isActive('todos')">Todos</button>
+      </li>
+    </ul>
+  </mat-toolbar-row>
+</mat-toolbar>

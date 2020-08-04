@@ -1,0 +1,5 @@
+[0615/194900.562:ERROR:process_info.cc(329)] VirtualQueryEx: Acesso negado. (0x5)
+[0615/194900.562:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0615/194900.562:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Tentou-se acessar um processo de saída. (0xc000010a)
+[0615/205649.620:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[0615/205649.620:ERROR:exception_snapshot_win.cc(98)] thread ID 7668 not found in process

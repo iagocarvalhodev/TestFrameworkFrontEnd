@@ -1,0 +1,46 @@
+@import '../../../../variables.scss';
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar {
+  background-color: $framework;
+}
+
+.mat-button {
+  color: $white;
+}
+
+.active {
+  color: $pink;
+}
+
+.menu {
+  display: inline-flex;
+  display: flex;
+  justify-self: flex-end;
+
+  li {
+    margin: 0 10px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .spacer {
+    display: none;
+  }
+
+  .framework {
+    padding: 20px;
+  }
+
+  .mat-toolbar-row {
+    flex-direction: column;
+    height: 120px;
+  }
+}
